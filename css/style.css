@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+  padding-top: 100px;
+  
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+}
+h1{
+    text-align: center;
+    font-family: "Sacramento", cursive;
+    color: #66bfbf;
+    margin: 50px auto 0 auto;
+    font-size: 3rem;
+   
+}
+.middle-continer{
+  padding: 10px;
+  margin: 10px;
+}
+
+span{
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    color: #66bfbf;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.bottom-cloud{
+   position: absolute;
+   left:230px;
+}
+.mountain-container
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile{
+    margin:100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+.profile-img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+hr{
+    border: dotted gray 6px;
+    width:3%;
+    border-bottom: none;
+    margin:100px auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    width:50%;
+    margin: 50px auto  0 auto;
+    text-align: center;
+   
+}
+.parent>div{
+    border: 1px solid gray;
+}
+h3{
+    color: #3285a8;
+    font-weight: normal;
+    font-size: xx-large;
+    
+}
+.programming-lan{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.programming-img{
+    width:100px;
+    height: 100px;
+}
+.work{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1.5em;
+   
+}
+.work>div{
+    border: 1px solid gray;
+}
+.company-title,.text-work{
+    margin:3rem;
+    padding: .05em;
+
+}
+.text-work{
+    color:#66bfbf;
+    font-weight: bolder;
+}
+.info{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+width: 100%;
+}
+.btn{
+    background: #002B5B;
+   margin-top: 50px;
+    width:fit-content;
+    border-radius: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: #e6faf7;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+   
+}
+.bottom-container{
+    background-color: #66bfbf;
+   padding: 100px 0 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-link{
+    color: #FFFBEB;
+    font-family: "Montserrat", sans-serif;
+   margin: 100px;
+   font-size: large;
+   font-weight: bold;
+    text-decoration: none;
+}
+.copyright{
+    color: #e4f9f5;
+    margin:50px;
+    font-weight: bolder;
+}
